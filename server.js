@@ -75,5 +75,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(port, () => {
-  console.log(`server running at http://192.168.1.12:${port}`);
+  console.log(`server running at http://192.168.1.12:${port}`); // change to your ip address
 });
